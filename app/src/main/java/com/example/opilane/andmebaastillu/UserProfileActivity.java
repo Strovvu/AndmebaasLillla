@@ -68,7 +68,7 @@ public class UserProfileActivity extends AppCompatActivity {
                 profiil_eesnimi.setText(userProfileData.getEesNimi());
                 profiil_perekonnanimi.setText(userProfileData.getPereNimi());
                 profiil_epost.setText(userProfileData.getEpost());
-
+//kommentaar
             }
 
             @Override
