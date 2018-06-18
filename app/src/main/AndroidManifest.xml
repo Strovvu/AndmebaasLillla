@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/purple1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.opilane.andmebaastillu.LoginActivity" />
-        <activity android:name="com.example.opilane.andmebaastillu.PasswordActivity" />
-        <activity android:name="com.example.opilane.andmebaastillu.RegisterActivity" />
-        <activity android:name="com.example.opilane.andmebaastillu.UserProfileActivity" />
-        <activity android:name="com.example.opilane.andmebaastillu.LogoActivity"/>
+        <activity android:name=".LoginActivity"/>
+            <activity android:name=".PasswordActivity"/>
+            <activity android:name=".RegisterActivity"/>
+            <activity android:name=".UserProfileActivity"/>
+            <activity android:name=".LogoActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
-
+    </activity>
 
     </application>
 
